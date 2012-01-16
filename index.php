@@ -10,6 +10,8 @@
 	
 	$site_twitter_url = "https://twitter.com/intent/user?screen_name=xpark_smvdu";
 	$site_forum_url = "http://groups.google.com/group/xpark";
+	include 'php/config.php';
+	include 'php/functions.php';
 ?>
 
 
@@ -30,7 +32,7 @@
 	<meta itemprop="image" content="<?php print($site_photo_url);?>">
 	<meta name="keywords" content="<?php print($site_keywords);?>">
 	<meta name="author" content="<?php print($site_author);?>">
-
+	<?php get_fb_meta(); ?>
 	<link rel="stylesheet" href="css/style.css">
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
