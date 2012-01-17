@@ -29,8 +29,8 @@ Anyone and everyone is welcome to contribute. Many developers have helped make t
 
 * Source: http://github.com/saurabhkumar/xpark_smvdu.git
 * Web: http://xpark.smvdu.net.in
-* Docs: http://https://github.com/saurabhkumar/xpark_smvdu/wiki
-* Mailing list: http://xpark@googlegroups.com
+* Docs: https://github.com/saurabhkumar/xpark_smvdu/wiki
+* Mailing list: xpark@googlegroups.com
 * Twitter: http://twitter.com/xpark_smvdu
 
 
