@@ -28,6 +28,7 @@
 	<?php get_fb_meta(); ?>
 	
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/logo.xpark.css">
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
@@ -39,7 +40,17 @@
 
 <body>
   <header>
-
+	<section>
+		<div id="logo-xpark" class=logo>
+			<div class=title>XparK</div>
+			<div class=subtitle>
+				an online social Coding competition.
+			</div>
+		</div>		
+	</section>
+	<section>
+		
+	</section>
   </header>
   <div role="main">
 
