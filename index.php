@@ -3,7 +3,7 @@
 	***********************************************/	
 
 	
-	include 'php/functions.php';
+	include ('php/functions.php');
 ?>
 
 
@@ -44,7 +44,7 @@
 		<div id="logo-xpark" class=logo>
 			<div class=title>XparK</div>
 			<div class=subtitle>
-				an online social Coding competition.
+				an annual online social Coding competition.
 			</div>
 		</div>		
 	</section>
