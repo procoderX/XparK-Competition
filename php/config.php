@@ -2,7 +2,7 @@
 	define('site_name',"XparK Competition");
 	define('site_title', 'XparK | annual online social coding competition');
 	define('site_type', 'Organisation');
-	define('site_description ', "XparK is an annual online social coding competition organised by School of Computer Science and Enginnering, SMVD Unviversity.");
+	define('site_description', "XparK is an annual online social coding competition organised by School of Computer Science and Enginnering, SMVD Unviversity.");
 	define('site_keywords', "xpark, social coding, open-source, osum, smvdu, smvd university, shri mata vaishno devi university, competition, programming, coding, annual");
 	define('site_photo_url', "http://xpark.smvdu.net.in/img/logo.xpark.web_640x640.jpg");
 	define('site_author', "Saurabh Kumar and contributors");

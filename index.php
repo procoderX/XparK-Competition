@@ -1,38 +1,32 @@
 <?php 
-	/* Local configurations
+	/* Local configurations/ overrides
 	***********************************************/	
-	$site_title = 'XparK | annual online social coding competition';
-	$site_type = 'Organisation';
-	$site_description = "XparK is an annual online social coding competition organised by School of Computer Science and Enginnering, SMVD Unviversity.";
-	$site_keywords = "xpark, social coding, open-source, osum, smvdu, smvd university, shri mata vaishno devi university, competition, programming, coding, annual";
-	$site_photo_url = "http://xpark.smvdu.net.in/img/logo.xpark.web_640x640.jpg";
-	$site_author = "Saurabh Kumar and contributors";
+
 	
-	$site_twitter_url = "https://twitter.com/intent/user?screen_name=xpark_smvdu";
-	$site_forum_url = "http://groups.google.com/group/xpark";
-	include 'php/config.php';
 	include 'php/functions.php';
 ?>
 
 
 <!doctype html>
-<html itemscope itemtype="http://schema.org/<?php print($site_type); ?>" class=no-js>
+<html itemscope itemtype="http://schema.org/<?php print(site_type); ?>" class=no-js>
 <head>
 <head>
 	<meta charset="utf-8">
 	
-	<title>	<?php print($site_title); ?> </title>
+	<title>	<?php print(site_title); ?> </title>
 		
 	<meta name="viewport" content="width=device-width,initial-scale=1">	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<meta itemprop="name" content="<?php print($site_title)?>">
-	<meta name="description" content="<?php print($site_description);?>">
-	<meta itemprop="description" content="<?php print($site_description);?>">
-	<meta itemprop="image" content="<?php print($site_photo_url);?>">
-	<meta name="keywords" content="<?php print($site_keywords);?>">
-	<meta name="author" content="<?php print($site_author);?>">
+	<meta itemprop="name" content="<?php print(site_title)?>">
+	<meta name="description" content="<?php print(site_description);?>">
+	<meta itemprop="description" content="<?php print(site_description);?>">
+	<meta itemprop="image" content="<?php print(site_photo_url);?>">
+	<meta name="keywords" content="<?php print(site_keywords);?>">
+	<meta name="author" content="<?php print(site_author);?>">
+	
 	<?php get_fb_meta(); ?>
+	
 	<link rel="stylesheet" href="css/style.css">
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
