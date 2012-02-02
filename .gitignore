@@ -30,6 +30,11 @@ dwsync.xml
 *.komodoproject
 .komodotools
 
+# eclipse
+.project
+.metadata
+
+
 # Folders to ignore
 .hg
 .svn
@@ -42,3 +47,6 @@ publish
 build/buildinfo.properties
 build/config/buildinfo.properties
 errorlog.txt
+
+#errorfile
+error_log
