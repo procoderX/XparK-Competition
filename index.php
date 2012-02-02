@@ -25,17 +25,17 @@
 	<meta name="keywords" content="<?php print(site_keywords);?>">
 	<meta name="author" content="<?php print(site_author);?>">
 	
-	<?php get_fb_meta(); ?>
+	<?php get_fb_meta() ;?>
 	
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/logo.xpark.css">
+	<link rel="stylesheet" href="assests/css/style.css">
+	<link rel="stylesheet" href="assests/css/logo.xpark.css">
   
   <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
 
   <!-- All JavaScript at the bottom, except this Modernizr build incl. Respond.js
        Respond is a polyfill for min/max-width media queries. Modernizr enables HTML5 elements & feature detects; 
        for optimal performance, create your own custom Modernizr build: www.modernizr.com/download/ -->
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <script src="assests/js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
 <body>
@@ -64,12 +64,12 @@
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+  <script>window.jQuery || document.write('<script src="assests/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
 
 
   <!-- scripts concatenated and minified via build script -->
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
+  <script defer src="assests/js/plugins.js"></script>
+  <script defer src="assests/js/script.js"></script>
   <!-- end scripts -->
 
 
